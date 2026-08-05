@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator V1</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>🎓 Grade Calculator</h1>
+            <p>Enter your marks to calculate your grade.</p>
+
+            <input
+                type="number"
+                id="marks"
+                placeholder="Enter Marks (0 - 100)"
+                min="0"
+                max="100"
+            >
+
+            <div class="button-group">
+                <button id="btn" onclick="checkGrade()">
+                    Calculate Grade
+                </button>
+
+                <button id="clearBtn" onclick="clearResult()">
+                    Clear Result
+                </button>
+            </div>
+
+            <div class="result-box">
+
+                <h2>Result</h2>
+
+                <p id="grade">
+                    Grade : --
+                </p>
+
+                <p id="status">
+                    Status : --
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
