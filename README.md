@@ -15,6 +15,10 @@ A simple Grade Calculator built with HTML, CSS, and JavaScript.
 * CSS
 * JavaScript
 
+## 🔗 Live Demo
+
+[View Live Website](https://zubair-dev786.github.io/Grade-Calculator-V1/)
+
 ## Author
 
 **Zubair Ahmed**
